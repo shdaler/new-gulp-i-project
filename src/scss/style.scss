@@ -1,0 +1,18 @@
+body {
+  background-color: #000000;
+  span {
+    color: rgb(116, 12, 12);
+  }
+}
+
+@media (max-width: 768px) {
+  span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: hsl(0, 0%, 0%);
+  }
+}
